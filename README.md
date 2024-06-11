@@ -1,4 +1,4 @@
-# Проект first_bank
+# Проект bank_widget
 
 ## Описание:
 
