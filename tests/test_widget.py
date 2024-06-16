@@ -18,6 +18,3 @@ from src.widget import mask_card_and_account
 )
 def test_mask_card_and_account(acc_number, expected):
     assert mask_card_and_account(acc_number) == expected
-
-
-
