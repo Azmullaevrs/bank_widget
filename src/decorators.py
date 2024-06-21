@@ -18,9 +18,7 @@ def log(filename="") -> Callable:
                     print(f"{message_ok}")
                 return result
             except Exception as e:
-                message_err = (
-                    f"{function.__name__} error: {e}. Inputs: {args}, {kwargs}"
-                )
+                message_err = f"{function.__name__} error: {e}. Inputs: {args}, {kwargs}"
                 if filename:
                     with open(filename, "w") as file:
                         file.write(f"{message_err}\n")
